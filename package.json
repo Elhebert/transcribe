@@ -1,0 +1,19 @@
+{
+  "name": "transcribe",
+  "version": "0.0.1",
+  "description": "An semi-customisable opiniated Markdown editor",
+  "main": "src/MarkdownEditor.jsx",
+  "scripts": {
+    "lint": "./node_modules/.bin/prettier --write 'src/**'"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "codemirror": "^5.39.2",
+    "fine-uploader": "^5.16.2",
+    "fine-uploader-wrappers": "^1.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.0"
+  }
+}
